@@ -1,0 +1,20 @@
+<%- include('../partials/bheader') %>
+<% books.forEach(book => { %>
+    <div class="book">
+        <img class="cover" src="<%- book.imgUrl %>" alt="<%- book.title %>"/>
+        <div class="desctext">
+            <div>
+                <span class="bookid"><%= `#${book.id}` %> </span>
+                <p class="booktitle">
+                    <%- book.title %>
+                </p>
+                <p class="genre"> <%- book.type %> </p>
+                <p class="author">
+                    <%- book.author %>
+                </p>
+            </div>
+            <p class="description"><%- book.description %></p>
+        </div>
+    </div>
+    <% }) %>
+<%- include('../partials/footer') %>

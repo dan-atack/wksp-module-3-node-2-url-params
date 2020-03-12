@@ -4,6 +4,8 @@
 
 How do you feel about this? Is this DRY?
 
+It is WET: Wanton Extra Text
+
 <div class='two-col'><div>
 
 ```js

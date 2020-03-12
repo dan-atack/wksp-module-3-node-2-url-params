@@ -1,0 +1,10 @@
+<%- include ('../partials/header') %>
+<div class="displaybox">
+    <span class="tracktitle"><%- trackname %></span>
+    <span><%- trackartist %></span>
+    <span class="trackstreams"><%- trackstreams %></span>
+</div>
+<div class="navigators">
+    <a class="prev" href="/top50/song/<%- Number(rank - 1) %>">PREVIOUS SONG</a>
+    <a class="next" href="/top50/song/<%- Number(rank) + 1 %>">NEXT SONG</a>
+</div>
