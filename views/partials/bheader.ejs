@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<header>
+    <h1><%= title %></h1>
+    <form class="finderbar" method="POST" action="/sortByGenre">
+    <label for="genre">SORT BY GENRE</label>
+    <input type="text" name="genre"/>
+    <button type="submit">Find!</button>
+    </form>
+    <% if (!(title == "Top 25 Books")) { %>
+        <a href="/bookends">
+            <button class="return">Back to Bookends Page</button>
+        </a>
+    <% } %>
+</header>

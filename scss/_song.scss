@@ -1,0 +1,75 @@
+li {
+    display: grid;
+    grid-template-columns: 10% 40% 30%;
+    margin-left: 16px;
+    border-bottom: 1px solid black;
+}
+
+.rankbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.rank {
+    font-size: 48px;
+}
+
+.title_and_singer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+}
+
+.artist {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.date {
+    padding-top: 32px;
+}
+
+.displaybox {
+    margin-top: 8%;
+    margin-left: 33%;
+    width: 33vw;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: cadetblue;
+    border-width: 1px;
+    box-shadow: 0px 0px 5px 5px lightgray;
+    align-items: center;;
+}
+
+.tracktitle {
+    font-size: 32px;
+    width: 80%;
+    border-bottom: 1px solid grey;
+}
+
+.trackstreams {
+    font-size: 144px;
+    color: lightgrey;
+}
+
+.navigators {
+    margin-left: 36%;
+    margin-top: 8px;
+    text-align: center;
+    display: flex;
+}
+
+.next {
+    width: 20%;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.prev {
+    width: 20%;
+    padding: 4px;
+    border: 2px solid black;
+}

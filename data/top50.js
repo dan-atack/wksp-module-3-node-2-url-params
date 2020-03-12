@@ -1,3 +1,5 @@
+const title = "50 Songs Featuring 3 Good Ones:";
+
 const top50 = [
     {
         rank: 1,

@@ -1,0 +1,24 @@
+<%- include ('../partials/bheader') %>
+
+<div class="solobookpage">
+    <img src="<%- cover %>" alt="<%- title %>">
+    <div>
+        <p class="soloauthor">
+            <%- author %>
+        </p>
+        <p class="sologenre">GENRE: <%- genre %></p>
+        <p class="sologenre">Synopsis: <%- ` ${description}` %></p>
+    </div>
+</div>
+    <div class="navvy">
+        <% if (id > 101) { %>
+    <a href="/bookends/book/<%- id-1 %>">
+        <button class="navbut">Previous Title</button>
+    </a>
+    <% }; %>
+    <% if (id < 125) { %>
+    <a href="/bookends/book/<%- id+1 %>">
+        <button class="navbut">Next Title</button>
+    </a>
+    <% }; %>
+</div>
